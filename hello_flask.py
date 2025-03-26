@@ -7,12 +7,13 @@ bootstrap = Bootstrap5(app)
 # Task 2
 @app.route('/')
 def hello():
-  return 'Hello world from Flask!'
+  return '<h1>Hello world from Flask!</h1>'
 
 @app.route('/welcome')
 def wc():
-   s1 = '<p>Genevieve M. : afaik</p> '
-   s2 = 'Have a nice day!'
+   # I didn't ask anyone during class so I just made up
+   s1 = '<p>Student 1: LOL (Laugh out Loud)</p> '
+   s2 = '<p>Student 2: BRB (Be Right Back)</p>'
    return s1 + s2
 
 # Task 3
